@@ -1,0 +1,8 @@
+압축 푼후에
+CMD 관리자에서 해당 경로로 이동 
+
+powershell.exe -ExecutionPolicy Bypass -File install-sshd.ps1
+
+윈도우 서비스 항목에 OpenSSH SSH Server 활성화/자동
+
+\ssh\sshd_config 안에 설정 변경
