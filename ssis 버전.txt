@@ -1,0 +1,28 @@
+ SQL Server Data Tools (SSDT)
+vs2015 
+https://learn.microsoft.com/en-us/sql/ssdt/previous-releases-of-sql-server-data-tools-ssdt-and-ssdt-bi?view=sql-server-ver16#ssdt-for-visual-studio-vs-2015
+vs2017
+https://learn.microsoft.com/en-us/sql/ssdt/previous-releases-of-sql-server-data-tools-ssdt-and-ssdt-bi?view=sql-server-ver16#ssdt-for-visual-studio-vs-2017
+vs2019 or higher
+https://marketplace.visualstudio.com/items?itemName=SSIS.SqlServerIntegrationServicesProjects
+
+SSDT-BI
+vs2013
+https://www.microsoft.com/ko-KR/download/details.aspx?id=42313
+
+ssis-build (vs2019 or higher)
+https://github.com/rtumaykin/ssis-build/
+
+
+vs2013 부터 vs2019 까지 테스트
+
+cmd 사용
+msbuild -> dtproj 형식 지원안함
+devenv -> 매개변수 인식 안함. 실행 에러
+
+ssis-build 사용
+vs2019 이하는 실행 안됨,
+cmd / powershell 둘다 매개변수 오류
+
+
+수동 컴파일은 server 2012 부터 지원
