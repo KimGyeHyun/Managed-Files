@@ -1,0 +1,10 @@
+v1.4 - 2024.09.10
+
+1. Algorithm : 4 추가
+   Jaro similarity 로 결과를 출력하도록 함
+
+2. 실행 시 Parameter를 두어 단독으로 필터링 결과를 가져오도록 수정( v1.2 추가 내역)
+  - 예시> AMLFilteringService.exe D:\TEST.txt 1
+            D:\TEST.txt 파일을 읽어서 | 를 구분자로 두고
+            양쪽 문자를 알고리즘 1(Jaro Winkler) 로 각 줄마다 돌려서
+            D:\TEST.txtR 이란 파일로 결과를 내보낸 후 종료됨
