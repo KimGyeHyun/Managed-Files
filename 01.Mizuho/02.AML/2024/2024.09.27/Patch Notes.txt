@@ -1,0 +1,6 @@
+v1.6 - 2024.09.27
+
+1. Return에 사용할 Sanc 명 처리
+  - SancList.txt 파일 내 3번째 문자열에 Return에 사용할 Sanc 명을 입력함.
+  - 최초 로딩 시 3칸인지 구분하여 3칸일 경우에만 로딩하도록 함.(구분자 | )
+  - Single, Batch 필터링 시 Return 값에 3번째 Sanc 값을 돌려주도록 수정함.
